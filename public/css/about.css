@@ -1,0 +1,125 @@
+
+/* --- fonts --- */
+
+@font-face {
+    font-family: Wellingtons;
+    src: url("../fonts/TT\ Wellingtons\ Trial\ DemiBold.otf");
+}
+
+@font-face {
+    font-family: Ricordi;
+    src: url("../fonts/TT\ Ricordi\ Allegria\ Trial\ Light.ttf");
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+main 
+{
+    display: block;
+    justify-content: space-between;
+    height: 100%;
+}
+
+body 
+{
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+    max-height: 100vh;
+    text-align: center;
+}
+
+section
+{
+    background-color: #c7c7c7;
+    min-height: 700px;
+    max-height: 750px;
+}
+
+.about
+{
+    display: inline-block;
+}
+
+.about-title
+{
+    display: inline-block;
+
+}
+
+.about-title
+{
+    border-left: 2px #1E1E1E solid;
+    margin-top: 10%;
+    padding-left: 25px;
+    border-right: 2px #1E1E1E solid;
+    padding-right: 25px;
+}
+
+.about-title h5
+{
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: Wellingtons;
+    color: #565756d1;
+}
+
+.about-title h1
+{
+    margin-top: 10px;
+    font-size: 4rem;
+    font-family: Ricordi;
+    color: #1E1E1E;
+}
+
+.about-content
+{
+    position: relative;
+    color: #565756d1;
+    margin-top: 30px;
+    padding: 35px;
+    text-align: center;
+    line-height: 2rem;
+    width: 89rem;
+    font-size: 1rem;
+    font-family: Wellingtons;
+}
+
+.about-content h1
+{
+    font-weight: 700;
+}
+
+/* gallery */
+
+.gallery
+{
+    margin-bottom: 12px;
+}
+
+.gallery img
+{
+    margin-top: 100px;
+    height: 14rem; 
+    width: 22rem;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 35px 88px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.gallery img:hover
+{
+    box-shadow: 0 14px 25px rgba(0, 0, 0, 1);
+    transition: .10s;
+    background: rgba(0, 0, 0, 0.285);
+}

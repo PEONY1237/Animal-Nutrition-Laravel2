@@ -1,0 +1,285 @@
+@font-face {
+    font-family: RicordiRegular;
+    src: url("../fonts/TT\ Ricordi\ Allegria\ Trial\ Regular.ttf.ttf");
+}
+
+@font-face {
+    font-family: Wellingtons;
+    src: url("../fonts/TT\ Wellingtons\ Trial\ DemiBold.otf");
+}
+
+/* logo */
+
+.logo 
+{
+    margin: 6px;
+    margin-bottom: 0;
+    width: 100px;
+    cursor: pointer;
+}
+
+.logo a 
+{
+    text-decoration: none;
+    color: #1E1E1E;
+    font-family: Poppins;
+
+}
+
+/* Navbar */
+
+.navBar 
+{
+    /* color: #fafafa; */
+    font-size: 1rem;
+    display: flex;
+    font-family: Poppins;
+    justify-content: space-between;
+    align-items: center;
+    transition: color .4s ease;
+}
+
+.navBar ul a:hover 
+{
+    color: #4BAE86;
+}
+
+/* TopBar */
+
+.nav-right li 
+{
+    display: inline-block;
+    font-weight: 500;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+.nav-right li a {
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+/* Login */
+
+.nav-left
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left p
+{
+    margin: 5px;
+    font-size: 0.8rem;
+}
+
+.nav-left li 
+{
+    margin: 5px;
+    font-size: 1rem;
+    list-style: none;
+}
+
+.nav-left li a 
+{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+/* dropdown */
+.dropdown:hover > .dropdown-content {
+    display: block;
+    overflow: visible;
+    z-index: 1000;
+}
+
+
+/*---------------------------------------
+  SOCIAL ICON               
+-----------------------------------------*/
+.social-icon 
+{
+    margin: 0;
+    padding: 0;
+}
+  
+.social-icon-item 
+{
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.social-icon-link 
+{
+    background: var(--dark-color);
+    border-radius: var(--border-radius-large);
+    color: var(--white-color);
+    font-size: var(--btn-font-size);
+    transition: background 0.2s, color 0.2s;
+}
+
+.social-icon-link i
+{
+    display: block;
+    /* margin-right: 5px; */
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+}
+
+.social-icon-link:hover 
+{
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.navbar-brand-image 
+{
+    width: 48px;
+    height: 48px;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  font-size: var(--h4-font-size);
+  font-weight: var(--font-weight-bold);
+  display: block;
+  color: var(--dark-color);
+  max-width: 48px;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover {
+  color: var(--white-color);
+}
+
+.navbar .navbar-brand-image {
+  filter: brightness(0) invert(1);
+}
+
+.navbar-brand-image {
+  width: 48px;
+  height: 48px;
+}
+
+.navbar-brand-text {
+  line-height: normal;
+  margin-left: 10px;
+  position: relative;
+  bottom: 5px;
+}
+
+.navbar-brand-text small {
+  display: block;
+  font-size: 10px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+  
+  
+/*---------------------------------------
+    SITE FOOTER            
+-----------------------------------------*/
+.site-footer 
+{
+    margin-top: 520px;
+    position: relative;
+    padding-bottom: 200px;
+    background: var(--backgroud-image)
+}
+
+.site-footer .container 
+{
+    padding: 120px;
+    position: relative;
+    z-index: 2;
+}
+
+.site-footer svg 
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.site-footer-title 
+{
+    color: var(--green-color);
+}
+
+.site-footer p span 
+{
+    font-weight: var(--font-weight-medium);
+    margin-right: auto;
+}
+
+p 
+{
+    color: var(--dark-color);
+    font-size: var(--p-font-size);
+    font-weight: var(--font-weight-normal);
+}
+
+a 
+{
+    display: inline-block;
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: var(--link-hover-color);
+}
+
+h5 
+{
+    font-size: var(--h5-font-size);
+    font-weight: var(--font-weight-medium);
+    letter-spacing: -1px;
+    color: var(--dark-color);
+}
+
+/*---------------------------------------
+  CUSTOM PROPERTIES ( VARIABLES )             
+-----------------------------------------*/
+:root {
+    --white-color:                  #ffffff;
+    --primary-color:                #81B29A;
+    --green-color:                  #1F3124;
+    --secondary-color:              #81B29A;
+    --section-bg-color:             #F4F1DE;
+    --custom-btn-bg-color:          #F2CC8F;
+    --custom-btn-bg-hover-color:    #E07A5F;
+    --light-color:                  #ffffff;
+    --dark-color:                   #000000;
+    --p-color:                      #F4F1DE;
+    --link-hover-color:             #F2CC8F;
+
+    --backgroud-image: url(../img/26.jpg);
+  
+    --body-font-family:             'DM Sans', sans-serif;
+  
+    --h1-font-size:                 42px;
+    --h2-font-size:                 36px;
+    --h3-font-size:                 28px;
+    --h4-font-size:                 24px;
+    --h5-font-size:                 22px;
+    --h6-font-size:                 20px;
+    --p-font-size:                  18px;
+    --menu-font-size:               16px;
+    --btn-font-size:                14px;
+  
+    --border-radius-large:          100px;
+    --border-radius-medium:         20px;
+    --border-radius-small:          10px;
+  
+    --font-weight-normal:           400;
+    --font-weight-medium:           500;
+    --font-weight-bold:             700;
+  }

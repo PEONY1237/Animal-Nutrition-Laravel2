@@ -1,0 +1,25 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    height:100vh;
+    background: linear-gradient(#36826452 , #d4fccf60) , url("../img/12.jpg");
+    background-size: cover;
+}
+
+.form-control:focus
+{
+    box-shadow: none;
+    border: 3px solid #368263;
+}
+
+.logo 
+{
+    margin: 6px;
+    width: 100px;
+}

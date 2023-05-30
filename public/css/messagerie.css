@@ -1,0 +1,32 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main 
+{
+    display: block;
+    justify-content: space-between;
+    
+}
+
+body 
+{
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+}
+
+section
+{
+    margin-top: 70px;
+}
+
+.table
+{
+    padding: 15px;
+}

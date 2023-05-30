@@ -1,0 +1,39 @@
+<div class="field">
+                            <label class="label">Catégorie</label> 
+                            <div class="control"> 
+                                <select class="select @error('categorie_id') is-danger @enderror" name="categorie_id"> 
+                                    @foreach($categories as $categorie) 
+                                    <option value="{{ $categorie->id }}">{{ $categorie->Nom_Categorie }} </option> 
+                                    @endforeach 
+                                </select> 
+                            </div> 
+                            @error('categorie_id') 
+                                <p class="help is-danger"> {{ $message }} </p> 
+                            @enderror 
+                        </div>
+
+                        <!-- <div class="field"> 
+                            <label class="label">Nom</label> 
+                            
+                            <div class="control"> 
+                                <select class="select @error('Nom_Produit') is-danger @enderror" type="text" name="Nom_Produit" value="{{ old('Nom_Produit') }}">
+                                    <option value="Produit Vaches">Produit Vaches</option>
+                                    <option  value="Produit Bovins" >Produit Bovins</option>
+                                    <option  value="Produit Tauraux" >Produit Tauraux</option>
+                                    <option  value="Produit Lapins" >Produit Lapins</option>
+                                    <option  value="Produit Chèvres" >Produit Chèvres</option>
+                                    <option  value="Produit Ovins" >Produit Ovins</option>
+                                    <option  value="Produit Caprins" >Produit Caprins</option>
+                                    <option  value="Produit Chevaux" >Produit Chevaux</option>
+                                    <option  value="Produit Chats" >Produit Chats</option>
+                                    <option  value="Produit Chiens" >Produit Chiens</option>
+                                    <option  value="Produit Escargots" >Produit Escargots</option>
+                                    <option  value="Produit Volailles" >Produit Volailles</option>
+                                </select>
+
+                            </div> 
+
+                            @error('Nom_Produit') 
+                                <p class="help is-danger"> {{ $message }} </p> 
+                            @enderror 
+                        </div> -->

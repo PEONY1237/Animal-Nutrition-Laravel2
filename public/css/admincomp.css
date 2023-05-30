@@ -1,0 +1,57 @@
+.container 
+{
+    font-size: 1rem;
+    display: flex;
+    font-family: Poppins;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo 
+{
+    margin: 6px;
+    width: 100px;
+}
+
+.container li
+{
+    list-style: none;
+}
+
+.container li a
+{
+    text-decoration: none;
+    color: gray;
+}
+
+.container .login
+{
+    display: block;
+    justify-content: flex-end;
+    align-items: end;
+
+}
+
+/* Footer */
+
+.footer-bottom
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.83);
+    color: #fffffe9a;
+    width: 100%;
+    padding: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.footer-bottom p 
+{
+    text-align: center;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 13px;
+}
