@@ -34,7 +34,7 @@ class ClientController extends Controller
     {
         $formFields = $clientRequest->validated();
         $formFields['Password_Client'] = Hash::make($clientRequest->Password_Client);
-        Client::create($formFields);        
+        Client::create($formFields);           
         
         return redirect()->route('clients.index')->with('info', 'Le client a bien été créé');
     }

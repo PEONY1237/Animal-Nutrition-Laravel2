@@ -37,23 +37,24 @@
         <main class="section"> 
             <div class="container"> @yield('content') </div> 
         </main> 
+
         <style>
 
-        /* css scroll */
-        .hide-scroll-bar {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-        .hide-scroll-bar::-webkit-scrollbar {
-            display: none;
-        }
+            /* css scroll */
+            .hide-scroll-bar {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            .hide-scroll-bar::-webkit-scrollbar {
+                display: none;
+            }
 
-        h1 .lytgreen-head 
-        {
-            color: #009048;
-        }
+            h1 .lytgreen-head 
+            {
+                color: #009048;
+            }
 
-    </style>
+        </style>
 
     <!-- js -->
     <script >

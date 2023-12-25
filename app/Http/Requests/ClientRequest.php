@@ -28,7 +28,7 @@ class ClientRequest extends FormRequest
             'Prenom_Client' => ['required', 'string' , 'max:100'], 
             'Email_Client' => ['required', 'email', 'max:100'],
             'Telephone' => ['required', 'string', 'max:20'],
-            'Password_Client' => ['required' , 'password' , 'min:8']
+            'Password_Client' => ['required' , 'string' , 'min:8']
         ];
     }
 }
