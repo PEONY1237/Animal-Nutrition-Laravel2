@@ -30,4 +30,11 @@ faciliter la navigation et l'accès aux différentes pages et fonctionnalités d
 
 ![image](https://github.com/PEONY1237/Animal-Nutrition-Laravel2/assets/126968465/531d24fe-4631-4abf-a804-8e2f5470d6ae)
 
+![image](https://github.com/PEONY1237/Animal-Nutrition-Laravel2/assets/126968465/49e99c00-97d6-48bd-9662-314abf393765)
+
+![image](https://github.com/PEONY1237/Animal-Nutrition-Laravel2/assets/126968465/7a6aefb6-ca3b-4d19-a0d3-22441bcf8681)
+
+
+
+
 
